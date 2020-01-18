@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Vestuves App</title>
+    <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="small-container">
+    <h1>Vestuves App</h1>
+
+    <nav>
+        <div id="mainUI">
+            <button type="button" id="addButton">Add Guests</button>
+            <button type="button" id="listButton">Get Person List</button>
+        </div>
+    </nav>
+
+    <div id="addMenu" class="menuUI">
+        <form>
+            <input id="newPersonName" type="text" placeholder="Name of the guest" required/>
+            <!--        <button id="addButton" type="submit">Add Person</button>-->
+        </form>
+    </div>
+
+    <div id="listMenu" class="menuUI">
+
+        <h2>Person List:</h2>
+        <ul></ul>
+
+        <button id="clearButton">Clear All</button>
+    </div>
+
+</div>
+
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
